@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wisata_banten/detail_screen.dart';
 import 'package:wisata_banten/scrolling_screen.dart';
 import 'package:wisata_banten/second_screen.dart';
+import 'package:wisata_banten/main_screen.dart';
 
 void main() {
   runApp(new MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wisata Banten',
       theme: ThemeData(fontFamily: 'Oswald', primarySwatch: Colors.blue),
-      home: ResponsivePage(),
+      home: MainScreen(),
     );
   }
 }
